@@ -1,3 +1,3 @@
 import random
-num = random.random()
+num = random.randint(999999999999999999, 10000000000000000000000000)
 print (num)

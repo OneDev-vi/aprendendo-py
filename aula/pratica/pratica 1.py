@@ -1,7 +1,3 @@
-import math
-#dolar para real
-#valor1 = int(input("dijite um valor: "))
-#dolar = 5.49 / valor1
-
-#print ("o valor que voçê tem para dolar vai ficar {}".format(dolar))
-print (2 + (3))
+real = float(input("quanto dinhero voce tem? R$ "))
+dolar = real / 5.50
+print (f"voce tem {real} e em dola voçe tera {real / 5.50:.4}") 

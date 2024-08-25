@@ -1,0 +1,5 @@
+valor = float(input("qual a valor aser desejado?: "))
+desconto = float(input("Qual o valor do desconto?: "))
+fn = float((valor * desconto)/100)
+fn2 = float((valor - fn))
+print (f"o desconto é {desconto} e o volar é {valor} e con desconto sera {fn2}")

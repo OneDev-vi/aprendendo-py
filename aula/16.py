@@ -1,0 +1,13 @@
+algo = input("Dijitr algo: ")
+nunber = int(input("Dijite um numero: "))
+float = float(input("dijitr um ponto flutuante: "))
+str = str(input("dijite um nome ou palavras: "))
+bool = bool(input("Não sei kkkkk: "))
+
+print ("a tipo primitivo é ", algo ,type(str))
+print ("o tipo primitivo é ", nunber ,type(nunber))
+print ("o tipo primitivo é " , float ,type(float))
+print ("o que voçê dijitou é uma ", str ,type(str))
+print ("verdaderio ou falso é ", bool, type(bool))
+print ("So tem espaço? ", algo ,str , algo.isspace() ,str.isspace())
+print ("sei la ", algo.isalpha() ,str.isalpha())

@@ -32,6 +32,7 @@ print ("Manga" in frase2)
 nome = str(input("Dijite seu nome completo> "))
 dividir = nome.split() #muinto bom saber fazer
 print (f"seu primeiro nome é {dividir[0]}")
+print (f"a parecceu na ultama pocisão foi {frase2.rfind("A")}")
 #$frase = frase.replace("Com" , "com gas e")
 #print (frase.replace("Com", "manga").lower().find("manga"))
 

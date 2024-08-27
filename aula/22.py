@@ -1,8 +1,7 @@
 frase = "Mangericão Com Salada"
-dividir = frase.split()
-dividindo = frase.split()
+dividir = frase.split(" ")
+dividindo = frase.split(" ")
 print (dividir)
-print ("-".frase.join)
 print (frase[12])
 print (frase[1:3])
 print (frase[:3])
@@ -18,7 +17,7 @@ print (frase.count("a", 1 , 17))
 print (frase.replace("Com", "e agua com gas e"))
 #print (frase.count)
 print (dividindo[2][3])
-#frase = frase.replace("Com" , "com gas e")
+#$frase = frase.replace("Com" , "com gas e")
 #print (frase.replace("Com", "manga").lower().find("manga"))
 
 

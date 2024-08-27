@@ -1,7 +1,7 @@
 frase = "Mangericão com salada"
 frase2 = "    Manga é bom pra caranba "
-dividir = frase.split(" ")
-dividindo = frase.split(" ")
+dividir = frase.split()
+dividindo = frase.split()
 print (dividir)
 print (frase[12])
 print (frase[1:3])

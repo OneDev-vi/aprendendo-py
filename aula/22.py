@@ -29,15 +29,17 @@ print (len(frase2.rstrip()))
 print (len(frase2.lstrip()))
 print (frase.split())
 print ("-".join(frase2))
+print ("manga" in frase2.capitalize())
+print ("Manga" in frase2)
 #$frase = frase.replace("Com" , "com gas e")
 #print (frase.replace("Com", "manga").lower().find("manga"))
 
 
 
 
-#'''print ('''sb dkvasvdfs,vhdfs v,ds md\n vm,d vsd bd bsd vfsdbvmdsvg 
+# print ("""sb dkvasvdfs,vhdfs v,ds md\n vm,d vsd bd bsd vfsdbvmdsvg 
 #efvefsvefvevbegbrsebrwbrswbrsbrstwbwrbwrtbgrwtbrwsbtrwbrtrwbtrbwrdf
 #gkeglthbrwhkgvbhretbkgrkhvtrejvbgrvhbgrkehgbvbtrkvhrwvbghjrtbvhjrtbvjrvgf
 #rrlhrhgrtlehrlehgrkhbgrelgrkejlgbkjerlgkrtljgrelhgkrtluklyegfinallydfb gf
 #fvhwkvjtlgvvbj,hv,vbhjfrhjmvremrjhmbvtrjhvbwrjvbhmfvbhumnfrvbmfrvhjrmvbjtrmvbrmvfgbbdf
-#wvbrwhvulrwhvlrwvhliurvhrwkigvkvruvhjrtvjlksvhrlkjbvhrbjkgrbkjrlubrigburkiubgkiurkiurnhkiugrbb dfg''')'''
+#wvbrwhvulrwhvlrwvhliurvhrwkigvkvruvhjrtvjlksvhrlkjbvhrbjkgrbkjrlubrigburkiubgkiurkiurnhkiugrbb dfg""")

@@ -8,6 +8,8 @@ elif ano == " ":
     
 elif (ano == "não" , "nao"):
     print ("A ENTÃO VOÇÊ ESTA AQUI!!!!!!!!!")
+    if ():
+        print (".........")
     
 elif (ano == "s" , "n"):
     print (".........cara não se escreve assim")

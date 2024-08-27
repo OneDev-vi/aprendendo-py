@@ -1,2 +1,3 @@
-seunome = str(input("Qual é seu nome?> ")).strip("")
-print (f"seu nome é maiuscolo é {seunome.upper()}\n é agora seu nome em minuscolo é {seunome.lower()}\n e seu nome tem um total de {len(seunome)-seunome.count(" ")}\n e seu primeiro nome tem {seunome.find(" ")}")
+nome = str(input("Dijite seu nome completo> ")).strip()
+dividindo = nome.split()
+print (f"{nome.upper()}\n {nome.lower()}\n {len(nome)}\n e seu primeiro nome tem {dividindo[0]}")

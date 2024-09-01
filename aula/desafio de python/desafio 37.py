@@ -1,4 +1,6 @@
 from colorama import init, Fore, Back, Style
+import pygame
+pygame.init()
 init()
 print ("===========================================")
 print ("-------------------------------------------")
@@ -15,18 +17,42 @@ quanto = float(input(Fore.LIGHTRED_EX + "Qual qual o valor que voçê ira pagar 
 if (qualacasa.upper() == "PEQUENA"):
     print (Fore.YELLOW + "A casa escolhida foi pequena")
     if (quanto >= 10000.50):
+        pygame.mixer.music.load("din.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.GREEN + "comprada")
     elif (quanto <= 10000.49):
+        pygame.mixer.music.load("nao.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.RED + "Voçê não pode comprar a casa")
 if (qualacasa.upper() == "MEDIA"):
     print (Fore.YELLOW + "Voçê escolheu a casa media")
     if (quanto >= 20000.36):
+        pygame.mixer.music.load("din.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.GREEN + "Casa comprada meu chefia")
     elif (quanto <= 20000.35):
+        pygame.mixer.music.load("nao.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.RED + "Voçê não pode comprar a casa")
 if (qualacasa.upper() == "GRANDE"):
     print (Fore.YELLOW + "Voçê escolheu a casa grande")
     if (quanto >= 35000.50):
+        pygame.mixer.music.load("din.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.GREEN + "Obrigada por comprar a casa meu nobre")
     elif (quanto <= 35000.49):
+        pygame.mixer.music.load("nao.mp3")
+        pygame.mixer.music.play()
+        input()
+        pygame.event.wait()
         print (Fore.RED + "Shipa daqui seu pobre kkkkkkk")

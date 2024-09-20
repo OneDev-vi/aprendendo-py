@@ -11,3 +11,4 @@ jogador = int(input("Qual a sua jogada?> "))
 print ("-="*11)
 print (f"computador jogou {(itens[pc])}")
 print (f"jogador jogou {(itens[pc])}")
+
